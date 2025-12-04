@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Hover & Animation Styles -->
+    <style>
+        /* Button hover effect */
+        a:hover {
+            text-decoration: underline wavy hotpink;
+            background-color: deeppink;
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 0 18px rgba(255, 105, 180, 0.8);
+        }
+
+        /* Floating animation for the title */
+        @keyframes floatTitle {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-6px);
+            }
+        }
+    </style>
+
+</head>
+
+<body style="background: linear-gradient(135deg, #ffe6f7, #ffe0f4, #ffd1f2); text-align: center; margin-top: 50px;">
+
+    <div style="background: white;
+                width: 60%;
+                margin: 50px auto;
+                padding: 30px;
+                border-radius: 20px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+                text-align: center;">
+
+        <h1 style="color: purple;
+                   font-size: 40px;
+                   font-family: 'Pacifico', cursive;
+                   animation: floatTitle 2.5s ease-in-out infinite alternate;">
+            Hi! I'm Sanu 💖
+        </h1>
+
+        <p style="font-size: 20px; color: darkblue; font-family: 'Poppins', sans-serif;">
+            This is my first cute little web page!
+        </p>
+
+        <p style="font-size: 20px; color: hotpink; font-family: 'Poppins', sans-serif;">
+            I've started my journey with HTML and I plan to learn and dive into many more things
+			like c language, c++, python, java, java script and SQL but we're just getting started and there's still a long way to go.
+			
+        </p>
+
+        <p style="font-size: 20px; color: teal; font-family: 'Poppins', sans-serif;">
+            this is just a beginning of my little jounrney and all I can say for now is that coding is fun!
+			and I hope whoever is seeing this likes it cuz i've put a whole lot of effort and love in it (〃＾▽＾〃)💖
+			
+        </p>
+
+        <a href="page2.html"
+           style="display: inline-block;
+                  background-color: hotpink;
+                  color: white;
+                  padding: 12px 25px;
+                  border-radius: 30px;
+                  text-decoration: none;
+                  font-family: 'Poppins', sans-serif;
+                  font-size: 18px;
+                  margin-top: 20px;
+                  transition: 0.3s;">
+            Click me 💞
+        </a>
+
+    </div>
+
+</body>
+</html>
